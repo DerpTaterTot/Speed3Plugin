@@ -1,2 +1,2 @@
 # Speed3Plugin
-very simple plugin that gives every single mob speed 3
+a very simple minecraft 1.16.5 plugin that gives every single mob speed 3
