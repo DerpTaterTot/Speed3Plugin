@@ -12,8 +12,9 @@ public class App extends JavaPlugin implements Listener{
     @Override
     public void onEnable() {
         getLogger().info("speed3 plugin enabled");
+        this.getServer().getPluginManager().registerEvents(this, this);
     }
-    PotionEffect Speed = new PotionEffect(PotionEffectType.SPEED, Integer.MAX_VALUE, 3) ;
+    PotionEffect Speed = new PotionEffect(PotionEffectType.SPEED, Integer.MAX_VALUE, 9);
 
     @EventHandler
     public void mobspawn(CreatureSpawnEvent event) {
